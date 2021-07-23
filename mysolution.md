@@ -60,7 +60,6 @@ filters:
 keyed_groups:
   - key: tags.Name
   - key: tags.environment
-  # postgresql, nodejs ve react ec2-lar key:environment, value: development olarak taglenecek
 compose:
   ansible_host: public_ip_address
 $ ansible-inventory -i inventory_aws_ec2.yml --graph
