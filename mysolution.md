@@ -326,7 +326,7 @@ SERVER_PORT=5000
 DB_USER=postgres
 DB_PASSWORD=Pp123456789
 DB_NAME=clarustodo
-DB_HOST=172.31.12.133 # (private ip/public ip of postgresql instance)
+DB_HOST=172.31.12.133 # (private ip of postgresql instance)
 DB_PORT=5432
 ```
 
